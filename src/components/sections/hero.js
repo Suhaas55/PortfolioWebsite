@@ -65,9 +65,9 @@ const Hero = () => {
   const four = (
     <>
       <p>
-      I’m a senior in Computer Science with a strong interest in web development, frontend and backend 
-      engineering, and machine learning. I’m excited to build solutions that make an impact and explore 
-      new possibilities in tech. {/*
+      I’m a Computer Science graduate focused on generative AI, full-stack development, and machine learning. 
+      I love building AI-driven tools and scalable web applications that deliver real impact, and I’m always exploring new ways 
+      to push the boundaries of what technology can do. {/*
        {' '}
         <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
           Upstatement
@@ -80,10 +80,10 @@ const Hero = () => {
   const five = (
     <a
       className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
+      href="SuhaasAchantaResume.pdf"
       target="_blank"
       rel="noreferrer">
-      Check out my course!
+      View My Resume!
     </a>
   );
 

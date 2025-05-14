@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML/CSS', 'React', 'Python', 'Node.js', 'C/C++'];
+  const skills = [  'Python','LangChain','RAG','Vertex AI','Gemini 2.0','FastAPI','JavaScript (ES6+)', 'HTML/CSS', 'React', 'Node.js', 'C/C++'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,11 +135,10 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-            Hello! My name is Suhaas, and I’m deeply passionate about all things tech. My journey
-             began with a curiosity for how things work behind the screen, and over the years,
-              this curiosity has evolved into a full-blown dedication to building innovative
-               digital solutions. From developing interactive web apps to exploring machine learning
-                and AI-driven technologies, I’m constantly driven to learn and create.
+            Hello! My name is Suhaas, and I’m deeply passionate about all things tech. 
+            My journey began with a curiosity for how things work behind the screen, and over the years,
+             this curiosity has evolved into a full-blown dedication to building innovative digital solutions—from 
+             interactive web apps to machine learning and AI-driven tools.
             </p>
 
             <p>{/*
@@ -152,13 +151,9 @@ const About = () => {
               experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
               clients.
               */}
-              Fast-forward to today, and I’ve had the opportunity to work at various types of 
-              organizations—from a fast-paced startup to a large corporation, each experience 
-              enriching my skills in web development, app development, and cybersecurity. My 
-              main focus these days is on crafting reliable, user-centered applications and exploring 
-              AI-driven solutions that bring value and innovation to the projects I work on.
-
-
+              Fast-forward to today, and I’ve worked at everything from nimble startups to large enterprises, 
+              sharpening my skills in full-stack development, cybersecurity, and AI/ML. My main focus these days 
+              is crafting reliable, user-centered applications and building AI solutions that deliver real value.
             </p>
 
             {/*<p>
