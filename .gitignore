@@ -1,1 +1,7 @@
 node_modules
+# Gatsby cache and public output
+.cache/
+public/
+
+# Node stuff
+node_modules/
