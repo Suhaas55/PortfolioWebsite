@@ -89,6 +89,7 @@ const Footer = () => {
       .catch(e => console.error(e));
   }, []);
 
+  /*
   return (
     <StyledFooter>
       <StyledSocialLinks>
@@ -111,6 +112,9 @@ const Footer = () => {
       </StyledCredit>
     </StyledFooter>
   );
+  */
+
+  return null;
 };
 
 Footer.propTypes = {
